@@ -1,52 +1,52 @@
 Messages:
-  NoPermissions: '%PREFIX% &cВи не маєте дозволу!'
-  NoPlayer: '%PREFIX% &cЦю команду можуть виконувати лише гравці!'
-  PlayerDoesNotExist: '%PREFIX% &c%NAME% ніколи не грав на AndriyCraft!'
-  JoinMessage: "%PREFIX% &a%NAME% тепер онлайн!"
-  QuitMessage: "%PREFIX% &c%NAME% тепер офлайн!"
-  NotifyAboutRequestsOnJoin: '%PREFIX% &aУ вас є &3%REQUESTS_COUNT%&a запитів на дружбу!'
+  NoPermissions: '&cВи не маєте дозволу!'
+  NoPlayer: '&cЦю команду можуть виконувати лише гравці!'
+  PlayerDoesNotExist: '&c%NAME% ніколи не грав на AndriyCraft!'
+  JoinMessage: "&a%NAME% тепер онлайн!"
+  QuitMessage: "&c%NAME% тепер офлайн!"
+  NotifyAboutRequestsOnJoin: '&aУ вас є &3%REQUESTS_COUNT%&a запитів на дружбу!'
   Commands:
-    WrongUsage: '%PREFIX% &cНеправильне використання команди!'
-    UnknownCommand: '%PREFIX% &cНевідома суб-команда!'
-    Version: '%PREFIX% &aYou are running FriendsBungee-Version: &e%VERSION%'
-    Reload: '%PREFIX% &aFriends was successfully reloaded!'
+    WrongUsage: '&cНеправильне використання суб-команди!'
+    UnknownCommand: '&cНевідома суб-команда!'
+    Version: '&aYou are running FriendsBungee-Version: &e%VERSION%'
+    Reload: '&aFriends was successfully reloaded!'
     HelpCommand:
-      UnknownPage: '%PREFIX% &c%PAGE% &cне є правильною сторінкою!'
+      UnknownPage: '&c%PAGE% не є правильною сторінкою!'
       Page1:
-      - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/f add <нік> <повідомлення> - Добавити друга'
-      - '%PREFIX% &b/f accept <нік> - Прийняти запит на дружбу'
-      - '%PREFIX% &b/f deny <нік> - Відхилити запит на дружбу'
-      - '%PREFIX% &b/f remove <нік> - Видалити гравця з друзів'
-      - '%PREFIX%'
-      - '%PREFIX% &7Більше команд: /f help 2'
-      - '%PREFIX% ------------------------------------------'
+      - '&b------------------------------------------'
+      - '&e/f add <Нік гравця> <Повідомлення> - Добавити друга'
+      - '&e/f accept <Нік гравця> - Прийняти запит на дружбу'
+      - '&e/f deny <Нік гравця> - Відхилити запит на дружбу'
+      - '&e/f remove <Нік гравця> - Видалити гравця з друзів'
+      - ' '
+      - '&6Більше команд: /f help 2'
+      - '&b------------------------------------------'
       Page2:
-      - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/f list - Показати список друзів'
-      - '%PREFIX% &b/f acceptall - Прийнати всі запрошення'
-      - '%PREFIX% &b/f denyall - Відхили всі запрошення'
-      - '%PREFIX% &b/f msg <нік> <повідомлення> - Надіслати повідомлення другу'
-      - '%PREFIX%'
-      - '%PREFIX% &7Більше команд: /f help 3'
-      - '%PREFIX% ------------------------------------------'
+      - '&b------------------------------------------'
+      - '&e/f list - Показати список друзів'
+      - '&e/f acceptall - Прийнати всі запрошення'
+      - '&e/f denyall - Відхили всі запрошення'
+      - '&e/f msg <Нік гравця> <Повідомлення> - Надіслати повідомлення другу'
+      - ''
+      - '&6Більше команд: /f help 3'
+      - '&b------------------------------------------'
       Page3:
-      - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/f status show <нік> - Показати статус вказаного гравця'
-      - '%PREFIX% &b/f status set <статус> - Встановити статус'
-      - '%PREFIX% ------------------------------------------'
+      - '&b------------------------------------------'
+      - '&e/f status show <Нік гравця> - Показати статус вказаного гравця'
+      - '&e/f status set <Новий статус> - Встановити статус'
+      - '&b------------------------------------------'
     AddCommand:
-      MessageCharLimit: '%PREFIX% &cВаше повідомлення занадто довге'
-      SendSelf: '%PREFIX% &cНе можна добавити самого себе в друзі!'
-      AlreadyFriends: '%PREFIX% &c%NAME% вже є вашим другом!'
-      AlreadyRequested: '%PREFIX% &cВи вже надіслали запит на дружбу гравцю %NAME%!'
-      RequestSend: '%PREFIX% &aЗапит на дружбу успішно надісланий'
-      RequestMessageSend: '%PREFIX% &aВаше повідомлення: &7%MESSAGE%'
-      ReceiveRequest: '%PREFIX% &aВи отримали запит на дружбу від %NAME%!'
-      ReceiveRequestMessage: '%PREFIX% &7``&b&o%MESSAGE%&r&7``'
-      NoRequestsWanted: '%PREFIX% &c%NAME% відключив запити на дружбу!'
+      MessageCharLimit: '&cВаше повідомлення занадто довге'
+      SendSelf: '&cНе можна добавити самого себе в друзі!'
+      AlreadyFriends: '&c%NAME% вже є вашим другом!'
+      AlreadyRequested: '&cВи вже надіслали запит на дружбу гравцю %NAME%!'
+      RequestSend: '&aЗапит на дружбу успішно надісланий'
+      RequestMessageSend: '&aВаше повідомлення: &7%MESSAGE%'
+      ReceiveRequest: '&aВи отримали запит на дружбу від %NAME%!'
+      ReceiveRequestMessage: '&7``&b&o%MESSAGE%&r&7``'
+      NoRequestsWanted: '&c%NAME% відключив запити на дружбу!'
       ClickableMessage:
-        Message: '%PREFIX% &6%ACCEPT_BUTTON% &c%DENY_BUTTON%'
+        Message: '&6%ACCEPT_BUTTON% &c%DENY_BUTTON%'
         AcceptButton:
           Text: '&a[Прийняти]'
           Hover: '&aНатисніть тут, щоб прийняти запит від %NAME%!'
@@ -54,75 +54,75 @@ Messages:
           Text: '&c[Відхилити]'
           Hover: '&cНатисніть тут, щоб відхилити запит від %NAME%!'
     AcceptCommand:
-      NoRequest: '%PREFIX% &cУ вас немає запиту від %NAME%!'
-      NoNewRequest: '%PREFIX% &cУ вас немає нових запитів!'
-      LimitReached: '%PREFIX% &cВи вже досягли максимальної кількості друзів (%LIMIT%)!'
-      NewFriend: '%PREFIX% &a%NAME% прийняв ваш запит на дружбу!'
-    AcceptAllCommand: '%PREFIX% &aВи прийняли %REQUESTS_COUNT% запитів!'
-    DenyAllCommand: '%PREFIX% &cВи відхилили %REQUESTS_COUNT% запитів!'
+      NoRequest: '&cУ вас немає запиту від %NAME%!'
+      NoNewRequest: '&cУ вас немає нових запитів!'
+      LimitReached: '&cВи вже досягли максимальної кількості друзів (%LIMIT%)!'
+      NewFriend: '&a%NAME% прийняв ваш запит на дружбу!'
+    AcceptAllCommand: '&aВи прийняли %REQUESTS_COUNT% запитів!'
+    DenyAllCommand: '&cВи відхилили %REQUESTS_COUNT% запитів!'
     DenyCommand:
-      NoRequest: '%PREFIX% &cУ вас немає запиту від %NAME%!'
-      NoNewRequest: '%PREFIX% &cУ вас немає нових запитів!'
-      DenyRequest: '%PREFIX% &cВи відхилили запит від %NAME%!'
-      DeniedRequest: '%PREFIX% &c%NAME% відхилив ваш запит!'
+      NoRequest: '&cУ вас немає запиту від %NAME%!'
+      NoNewRequest: '&cУ вас немає нових запитів!'
+      DenyRequest: '&cВи відхилили запит від %NAME%!'
+      DeniedRequest: '&c%NAME% відхилив ваш запит!'
     RemoveCommand:
-      NoFriends: '%PREFIX% &c%NAME% не є вашим другом!'
-      FriendRemoved: '%PREFIX% &c%NAME% був видалений з друзів!'
+      NoFriends: '&c%NAME% не є вашим другом!'
+      FriendRemoved: '&c%NAME% був видалений з друзів!'
     StatusCommand:
-      StatusLenght: '%PREFIX% &cСтатус не може бути більше ніж %LIMIT% символів!'
-      AbusivePhrase: "%PREFIX% &cСтатус містить заборонені слова"
-      StatusSet: '%PREFIX% &aСтатус змінений'
-      CantChangeYet: '%PREFIX% &cБудь ласка зачекайте ще %REMAINING_TIME%'
-      NoStatus: '%PREFIX% &cВи не маєте статуса!'
+      StatusLenght: '&cСтатус не може бути більше ніж %LIMIT% символів!'
+      AbusivePhrase: "&cСтатус містить заборонені слова"
+      StatusSet: '&aСтатус змінений'
+      CantChangeYet: '&cБудь ласка зачекайте ще %REMAINING_TIME%'
+      NoStatus: '&cВи не маєте статуса!'
       CurrentStatus: |-
-        %PREFIX% &aВаш поточний статус:
-        %PREFIX% &7``%STATUS%``
+        &aВаш поточний статус:
+        &7``%STATUS%``
       FriendCheck:
-        NoFriends: '%PREFIX% &c%NAME% має бути вашим другом, щоб бачити його статус!'
-        NoStatus: '%PREFIX% &7%NAME% наразі не має статусу!'
+        NoFriends: '&c%NAME% має бути вашим другом, щоб бачити його статус!'
+        NoStatus: '&7%NAME% наразі не має статусу!'
         ShowStatus: |-
-          %PREFIX% &a%NAME% статус:
-          %PREFIX% &7``%STATUS%``
+          &a%NAME% статус:
+          &7``%STATUS%``
     ListCommand:
-      NoFriends: '%PREFIX% &cНаразі у вас немає друзів! :('
+      NoFriends: '&cНаразі у вас немає друзів! :('
       List: |-
-        %PREFIX% &aОнлайн (&7%ONLINE_COUNT%&a):
-        %PREFIX% &7%ONLINE_FRIENDS%
-        %PREFIX% &aОфлайн (&7%OFFLINE_COUNT%&a):
-        %PREFIX% &8%OFFLINE_FRIENDS%
+        &aОнлайн (&7%ONLINE_COUNT%&a):
+        &7%ONLINE_FRIENDS%
+        &aОфлайн (&7%OFFLINE_COUNT%&a):
+        &8%OFFLINE_FRIENDS%
     MSGCommand:
-      PlayerOffline: '%PREFIX% &c%NAME% є офлайн!'
-      NoFriends: '%PREFIX% &c%NAME% має бути вашим другом, щоб надіслати йому приватне повідомлення повідомлення!'
-      MessagesDisabled: '%PREFIX% &cВи не можете надсилати повідомлення томущо ви іх вимкнули в налаштуваннях!'
-      NoMSGWanted: '%PREFIX% &cВи зараз не можете надсилати приватні повідомлення %NAME%!'
+      PlayerOffline: '&c%NAME% є офлайн!'
+      NoFriends: '&c%NAME% має бути вашим другом, щоб надіслати йому приватне повідомлення повідомлення!'
+      MessagesDisabled: '&cВи не можете надсилати повідомлення томущо ви іх вимкнули в налаштуваннях!'
+      NoMSGWanted: '&cВи зараз не можете надсилати приватні повідомлення %NAME%!'
       MSG: '&bДрузі &7| [&3%SENDER%&7] -> [&3%NAME%&7]: &r%MESSAGE%'
       AbusivePhrase: ""
     ReplyCommand:
-      NoReply: '%PREFIX% &cВи не маєте повідомлення на які можна відповісти!'
+      NoReply: '&cВи не маєте повідомлення на які можна відповісти!'
     JumpCommand:
-      NoFriends: '%PREFIX% &c%NAME% має бути вашим другом, щоб телепортуватися до сервера на якому він зараз є!'
-      PlayerOffline: "%PREFIX% &c%NAME% не в мережі!"
-      JumpingDisabled: '%PREFIX% &c%NAME% не хоче, щоб гравці могли телепортовуватися до сервера на якому він зараз є!'
-      JumpToFriend: '%PREFIX% &aВи перейшли до сервера %NAME%!'
-      JumpedToYou: '%PREFIX% &3%NAME% перейов до вашого сервера!'
-      ServerBlocked: '%PREFIX% &cВи вже є на цьому сервері!'
+      NoFriends: '&c%NAME% має бути вашим другом, щоб телепортуватися до сервера на якому він зараз є!'
+      PlayerOffline: "&c%NAME% не в мережі!"
+      JumpingDisabled: '&c%NAME% не хоче, щоб гравці могли телепортовуватися до сервера на якому він зараз є!'
+      JumpToFriend: '&aВи перейшли до сервера %NAME%!'
+      JumpedToYou: '&3%NAME% перейов до вашого сервера!'
+      ServerBlocked: '&cВи вже є на цьому сервері!'
     OptionsJumpingCommand:
-      Enable: '%PREFIX% &aУвімкнено!'
-      Disable: '%PREFIX% &cВимкнено!'
-      OnlyFavorites: '%PREFIX% &6Тільки ваші улюблені друзі можуть телепортуватися до сервера на якому ви зараз є!'
+      Enable: '&aУвімкнено!'
+      Disable: '&cВимкнено!'
+      OnlyFavorites: '&6Тільки ваші улюблені друзі можуть телепортуватися до сервера на якому ви зараз є!'
     OptionsRequestsCommand:
-      Enable: '%PREFIX% &aГравці тепер можуть надсилати ваші запити на дружбу!'
-      Disable: "%PREFIX% &cГравці більше не можуть надсилати вам запити дружбу!"
+      Enable: '&aГравці тепер можуть надсилати ваші запити на дружбу!'
+      Disable: "&cГравці більше не можуть надсилати вам запити дружбу!"
     OptionsMessagesCommand:
-      Disable: '%PREFIX% &cВи більше не будете отримувати повідомлення відваших друзів'
-      Enable: '%PREFIX% &aТепер ви будете отримувати повідомлення від друзів'
-      OnlyFavorites: '%PREFIX% &6Тільки ваші улюблені друзі зможути надсилати вам повідомлення!'
+      Disable: '&cВи більше не будете отримувати повідомлення відваших друзів'
+      Enable: '&aТепер ви будете отримувати повідомлення від друзів'
+      OnlyFavorites: '&6Тільки ваші улюблені друзі зможути надсилати вам повідомлення!'
     OptionsOfflinemodeCommand:
-       Disable: '%PREFIX% &aВи зараз онлайн!'
-       Enable: '%PREFIX% &cВи тепер "офлайн"!'
+       Disable: '&aВи зараз онлайн!'
+       Enable: '&cВи тепер "офлайн"!'
     OptionsPartyInvitesCommand:
-       Disable: '%PREFIX% &cВи більше не будете отримувати запрошень в паті!'
-       Enable: '%PREFIX% &aВи тепер можете отримувати запрошення в паті!'
+       Disable: '&cВи більше не будете отримувати запрошень в паті!'
+       Enable: '&aВи тепер можете отримувати запрошення в паті!'
     NicknameCommand:
       NoFriends: ''
       SameNickname: ''
@@ -130,120 +130,120 @@ Messages:
       NickLength: ''
       AbusivePhrase: ''
     InfoCommand:
-      NoFriends: '%PREFIX% &c%NAME% не є вашим другом'
+      NoFriends: '&c%NAME% не є вашим другом'
       Info:
-       - '%PREFIX% &8---------------------------------------'
-       - '%PREFIX% &7Нік гравця: &3%NAME% &7(%ONLINE_STATUS%&7)'
+       - '&8---------------------------------------'
+       - '&7Нік гравця: &3%NAME% &7(%ONLINE_STATUS%&7)'
        - '%PREFIX%'
-       - '%PREFIX% &7Сервер: &3%WORLD%'
-       - '%PREFIX% &7Друзі з: &3%FRIENDS_SINCE%'
-       - '%PREFIX% &7Останній онлайн: &3%LAST_ONLINE%'
-       - '%PREFIX% &7Вибране: &3%FAVORITE%'
-       - '%PREFIX% &8---------------------------------------'
+       - '&7Сервер: &3%WORLD%'
+       - '&7Друзі з: &3%FRIENDS_SINCE%'
+       - '&7Останній онлайн: &3%LAST_ONLINE%'
+       - '&7Вибране: &3%FAVORITE%'
+       - '&8---------------------------------------'
   FriendChat:
-    DisabledOption: '%PREFIX% &cВам треба вимкнути режим офлайн!'
+    DisabledOption: '&cВам треба вимкнути режим офлайн!'
     Format: '&b[Чат з друзями] %NAME% &7:&r%MESSAGE%'
     AbusivePhrase: ""
   GUI:
-    ToggleCooldown: '%PREFIX% &cЗмінювати параметри можна кожні 3 секунди!'
+    ToggleCooldown: '&cЗмінювати параметри можна кожні 3 секунди!'
 PartyMessages:
-  NoPermissions: '%PREFIX% &cВи не маєте дозволів для цього!'
-  NoPlayer: '%PREFIX% &cЛише гравці можуть виконати цю команду!'
-  UnknownCommand: '%PREFIX% &cНевідома суб-команда!'
-  WrongUsage: '%PREFIX% &cНеправильне використання!'
-  CreateOfflinemode: '%PREFIX% &cВи не можете створити вечірку, перебуваючи в офлайн режимі!'
+  NoPermissions: '&cВи не маєте дозволів для цього!'
+  NoPlayer: '&cЛише гравці можуть виконати цю команду!'
+  UnknownCommand: '&cНевідома суб-команда!'
+  WrongUsage: '&cНеправильне використання!'
+  CreateOfflinemode: '&cВи не можете створити вечірку, перебуваючи в офлайн режимі!'
   Commands:
-    PlayerInvalid: '%PREFIX% &c%NAME%, зараз офлайн!'
+    PlayerInvalid: '&c%NAME%, зараз офлайн!'
     HelpCommand:
-      UnknownPage: '%PREFIX% &c%PAGE% &c не є дійсною довідковою сторінкою!'
+      UnknownPage: '&c%PAGE% &c не є дійсною довідковою сторінкою!'
       Page1:
-      - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/party invite <нік гравця>'
-      - '%PREFIX% &b/party accept <нік гравця>'
-      - '%PREFIX% &b/party deny <нік гравця>'
-      - '%PREFIX% &b/party leave'
+      - '------------------------------------------'
+      - '&b/party invite <нік гравця>'
+      - '&b/party accept <нік гравця>'
+      - '&b/party deny <нік гравця>'
+      - '&b/party leave'
       - '%PREFIX%'
-      - '%PREFIX% &7Більше команд: /party help 2'
-      - '%PREFIX% ------------------------------------------'
+      - '&7Більше команд: /party help 2'
+      - '------------------------------------------'
       Page2:
-      - '%PREFIX% ------------------------------------------'
-      - '%PREFIX% &b/party kick <нік гравця>'
-      - '%PREFIX% &b/party promote <нік гравця>'
-      - '%PREFIX% &b/party demote <нік гравця>'
-      - '%PREFIX% &b/party <повідомлення>'
-      - '%PREFIX% &b/party join <нік гравця>'
-      - '%PREFIX% &b/party list'
-      - '%PREFIX% ------------------------------------------'
+      - '------------------------------------------'
+      - '&b/party kick <нік гравця>'
+      - '&b/party promote <нік гравця>'
+      - '&b/party demote <нік гравця>'
+      - '&b/party <повідомлення>'
+      - '&b/party join <нік гравця>'
+      - '&b/party list'
+      - '------------------------------------------'
     InviteCommand:
-      NoFriends: '%PREFIX% &c%NAME% має бути вашим другом, щоб запросити його на вашу паті!'
-      NoInvites: "%PREFIX% &c%NAME% не хоче отримувати запрошення на паті!"
-      AlreadyInParty: '%PREFIX% &c%NAME% вже в паті!'
-      NotLeader: '%PREFIX% &cТільки лідери партій можуть запрошувати нових учасників!'
-      AlreadyInvited: '%PREFIX% &cВи вже надіслали запрошення до %NAME%!'
-      PlayerOffline: "%PREFIX% &c%NAME% не в мережі!"
-      InviteSent: '%PREFIX% &aВи успішно надіслали запрошення до %NAME%!'
-      InviteReceived: '%PREFIX% &6%NAME% &6хоче, щоб ви приєдналися до його паті!'
-      CreateParty: '%PREFIX% &aВи успішно створили паті!'
+      NoFriends: '&c%NAME% має бути вашим другом, щоб запросити його на вашу паті!'
+      NoInvites: "&c%NAME% не хоче отримувати запрошення на паті!"
+      AlreadyInParty: '&c%NAME% вже в паті!'
+      NotLeader: '&cТільки лідери партій можуть запрошувати нових учасників!'
+      AlreadyInvited: '&cВи вже надіслали запрошення до %NAME%!'
+      PlayerOffline: "&c%NAME% не в мережі!"
+      InviteSent: '&aВи успішно надіслали запрошення до %NAME%!'
+      InviteReceived: '&6%NAME% &6хоче, щоб ви приєдналися до його паті!'
+      CreateParty: '&aВи успішно створили паті!'
       ClickableMessage:
-        Message: '%PREFIX% %ACCEPT_BUTTON% &aабо %DENY_BUTTON% &aзапит в паті від %NAME%'
+        Message: '%ACCEPT_BUTTON% &aабо %DENY_BUTTON% &aзапит в паті від %NAME%'
         AcceptButton:
           Text: '&6[Прийняти]'
           Hover: '&aНатисніть тут, щоб прийняти запит %NAME%!'
         DenyButton:
           Text: '&c[Відхилити]'
           Hover: '&cНатисніть тут, щоб відхилити запит %NAME%!'
-      Offlinemode: '%PREFIX% &cВам треба вимкнути режим офлайн!'
+      Offlinemode: '&cВам треба вимкнути режим офлайн!'
     DenyCommand:
-     NoInvite: '%PREFIX% &cУ вас немає запрошення від %NAME%!'
-     Deny: '%PREFIX% &cВи відхилили запрошення від %NAME%!'
-     NoNewInvite: '%PREFIX% &cУ вас немає нових запрошень!'
-     Denied: "%PREFIX% &7%NAME% відхилив запрошення на паті!"
+     NoInvite: '&cУ вас немає запрошення від %NAME%!'
+     Deny: '&cВи відхилили запрошення від %NAME%!'
+     NoNewInvite: '&cУ вас немає нових запрошень!'
+     Denied: "&7%NAME% відхилив запрошення на паті!"
     AcceptCommand:
-      NoInvite: '%PREFIX% &cУ вас немає запрошення від %NAME%!'
-      PartyClosed: '%PREFIX% &cПаті, до якої ви хочете приєднатися, більше не існує!'
-      NoNewInvite: '%PREFIX% &cУ вас немає нових запрошень!'
-      InviteExpired: '%PREFIX% &cТермін дії цього запрошення на паті закінчився!'
-      PartyLimitReached: '%PREFIX% &cПаті, до якої ви хочете приєднатися, уже досягнута максимальна кількість гравців!'
-      Join: '%PREFIX% &aВи приєдналися до паті %NAME%!'
-      NewMember: '%PREFIX% &3%NAME% приєднався до паті!'
-      AlreadyInParty: '%PREFIX% &cВи зараз в іншій паті!'
-      Offlinemode: '%PREFIX% &cВи не можете брати участь у паті, перебуваючи в офлайн режимі!'
+      NoInvite: '&cУ вас немає запрошення від %NAME%!'
+      PartyClosed: '&cПаті, до якої ви хочете приєднатися, більше не існує!'
+      NoNewInvite: '&cУ вас немає нових запрошень!'
+      InviteExpired: '&cТермін дії цього запрошення на паті закінчився!'
+      PartyLimitReached: '&cПаті, до якої ви хочете приєднатися, уже досягнута максимальна кількість гравців!'
+      Join: '&aВи приєдналися до паті %NAME%!'
+      NewMember: '&3%NAME% приєднався до паті!'
+      AlreadyInParty: '&cВи зараз в іншій паті!'
+      Offlinemode: '&cВи не можете брати участь у паті, перебуваючи в офлайн режимі!'
     LeaveCommand:
-       NoParty: '%PREFIX% &cНаразі ви не в жодній паті!'
-       Leave: '%PREFIX% &cВи залишили паті!'
-       MemberLeave: '%PREFIX% &c%NAME% &c залишив паті!'
+       NoParty: '&cНаразі ви не в жодній паті!'
+       Leave: '&cВи залишили паті!'
+       MemberLeave: '&c%NAME% &c залишив паті!'
     PromoteCommand:
-       NotInParty: '%PREFIX% &c%NAME% не є учасником вашої паті!'
-       NoParty: '%PREFIX% &cНаразі ви не в жодній паті!'
-       NoLeader: '%PREFIX% &cТільки лідери паті можуть підвищувати в посаді інших учасників!'
-       Promoted: "%PREFIX% &a%NAME% тепер лідер паті!"
-       NewLeader: '%PREFIX% &aВи тепер лідер паті!'
-       AlreadyLeader: '%PREFIX% &c%NAME% вже є лідером паті!'
+       NotInParty: '&c%NAME% не є учасником вашої паті!'
+       NoParty: '&cНаразі ви не в жодній паті!'
+       NoLeader: '&cТільки лідери паті можуть підвищувати в посаді інших учасників!'
+       Promoted: "&a%NAME% тепер лідер паті!"
+       NewLeader: '&aВи тепер лідер паті!'
+       AlreadyLeader: '&c%NAME% вже є лідером паті!'
     DemoteCommand:
-       NotInParty: '%PREFIX% &c%NAME% не є членом вашої паті!'
-       NoParty: '%PREFIX% &cНаразі ви не в жодній паті!'
-       AlreadyMember: '%PREFIX% &c%NAME% вже є звичайним учасником паті!'
-       NoLeader: '%PREFIX% &cТільки лідери паті партій можуть понизити інших учасників!'
-       Demoted: "%PREFIX% &c%NAME% більше не є лідером!"
-       NewMember: '%PREFIX% &cВи більше не є лідером паті!'
+       NotInParty: '&c%NAME% не є членом вашої паті!'
+       NoParty: '&cНаразі ви не в жодній паті!'
+       AlreadyMember: '&c%NAME% вже є звичайним учасником паті!'
+       NoLeader: '&cТільки лідери паті партій можуть понизити інших учасників!'
+       Demoted: "&c%NAME% більше не є лідером!"
+       NewMember: '&cВи більше не є лідером паті!'
     ListCommand:
-      NoParty: '%PREFIX% &cТут більше нікого нема!'
+      NoParty: '&cТут більше нікого нема!'
       List: |-
-        %PREFIX% &aЛідери (&7%LEADER_COUNT%&a):
-        %PREFIX% &7%PARTY_LEADERS%
-        %PREFIX% &aУчасники (&7%MEMBER_COUNT%&a):
-        %PREFIX% &7%PARTY_MEMBERS%
+        &aЛідери (&7%LEADER_COUNT%&a):
+        &7%PARTY_LEADERS%
+        &aУчасники (&7%MEMBER_COUNT%&a):
+        &7%PARTY_MEMBERS%
     KickCommand:
-      NoParty: '%PREFIX% &cТут нікого нема!'
-      NotInParty: '%PREFIX% &c%NAME% не є в вашій паті'
-      NoLeader: '%PREFIX% &cВ вас нема дозвола!'
-      Kick: '%PREFIX% &c%NAME% був вигнаний з паті!'
-      Kicked: '%PREFIX% &cВас вигнали з паті!'
-    CreateOfflinemode: '%PREFIX% &cВи не можете створити паті в "офлайн" режимі!'
+      NoParty: '&cТут нікого нема!'
+      NotInParty: '&c%NAME% не є в вашій паті'
+      NoLeader: '&cВ вас нема дозвола!'
+      Kick: '&c%NAME% був вигнаний з паті!'
+      Kicked: '&cВас вигнали з паті!'
+    CreateOfflinemode: '&cВи не можете створити паті в "офлайн" режимі!'
   PartyChat:
-    NoParty: '%PREFIX% &cНікого більше тут нема!'
-    Message: '%PREFIX% &3%NAME% | &r%MESSAGE%'
+    NoParty: '&cНікого більше тут нема!'
+    Message: '&3%NAME% | &r%MESSAGE%'
     AbusivePhrase: ""
   SwitchServer:
-    ServerBlocked: '%PREFIX% &cYou cannot enter this server while beeing in a party!'
-    JoinServer: '%PREFIX% &6Телепортація на сервер %WORLD%!'
+    ServerBlocked: '&cYou cannot enter this server while beeing in a party!'
+    JoinServer: '&6Телепортація на сервер %WORLD%!'
